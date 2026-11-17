@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Brushify</h1>
+        <div id="box" contenteditable="true"></div>
+        <br><br>
+        <div id="funcs">
+            <div id="bc" class="funcs">
+                <h3 class="head">Background Color</h3>
+                <button onclick="changeBackgroundColor('red')" class="bc" style="background-color: red;"></button>
+                <button onclick="changeBackgroundColor('blue')" class="bc" style="background-color: blue;"></button>
+                <button onclick="changeBackgroundColor('green')" class="bc" style="background-color: green;"></button>
+                <button onclick="changeBackgroundColor('yellow')" class="bc" style="background-color: yellow;"></button>
+                <button onclick="changeBackgroundColor('white')" class="bc" style="background-color: white;"></button>
+            </div>
+            <div id="color" class="funcs">
+                <h3 class="head">Text Color</h3>
+                <button onclick="changeTextColor('red')" class="color" style="background-color: red;"></button>
+                <button onclick="changeTextColor('blue')" class="color" style="background-color: blue;"></button>
+                <button onclick="changeTextColor('green')" class="color" style="background-color: green;"></button>
+                <button onclick="changeTextColor('yellow')" class="color" style="background-color: yellow;"></button>
+                <button onclick="changeTextColor('black')" class="color" style="background-color: black;"></button>
+            </div>
+            <div id="font" class="funcs">
+                <h3 class="head">Font Family</h3>
+                <button onclick="changeFontFamily('Arial')" class="font">Arial</button>
+                <button onclick="changeFontFamily('Verdana')" class="font">Verdana</button>
+                <button onclick="changeFontFamily('Times New Roman')" class="font">Times New Roman</button>
+            </div>
+        </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
